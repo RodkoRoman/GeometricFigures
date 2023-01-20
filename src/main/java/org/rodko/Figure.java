@@ -1,8 +1,8 @@
 package org.rodko;
 
 public interface Figure {
-    double getFigurePerimeter();
-    double getFigureArea();
+    int getFigurePerimeter();
+    int getFigureArea();
     String getFigureName();
     public default void getFigureInformation(){
         System.out.println("Название фигуры: " + getFigureName() +

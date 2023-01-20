@@ -13,12 +13,12 @@ public class Rectangle implements Figure {
     }
 
     @Override
-    public double getFigurePerimeter() {
+    public int getFigurePerimeter() {
         return 2 * (sideLength + sideWidth);
     }
 
     @Override
-    public double getFigureArea() {
+    public int getFigureArea() {
         return sideLength * sideWidth;
     }
 

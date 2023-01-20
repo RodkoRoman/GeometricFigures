@@ -10,13 +10,13 @@ public class RegularHexagon implements Figure {
     }
 
     @Override
-    public double getFigurePerimeter() {
+    public int getFigurePerimeter() {
         return sideLength * 6;
     }
 
     @Override
-    public double getFigureArea() {
-        return (3 * Math.sqrt(3) * sideLength)/2;
+    public int getFigureArea() {
+        return (int)(3 * Math.round(Math.sqrt(3)) * sideLength)/2;
     }
 
     @Override

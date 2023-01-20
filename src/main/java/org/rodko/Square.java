@@ -11,12 +11,12 @@ public class Square implements Figure {
     }
 
     @Override
-    public double getFigurePerimeter() {
+    public int getFigurePerimeter() {
         return sideLength * 4;
     }
 
     @Override
-    public double getFigureArea() {
+    public int getFigureArea() {
         return sideLength * sideLength;
     }
 
