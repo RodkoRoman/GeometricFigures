@@ -16,7 +16,7 @@ public class RegularHexagon implements Figure {
 
     @Override
     public int getFigureArea() {
-        return (int)(3 * Math.round(Math.sqrt(3)) * sideLength)/2;
+        return (int)Math.round((3 * Math.sqrt(3) * Math.pow(sideLength, 2))/2);
     }
 
     @Override
